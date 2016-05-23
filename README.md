@@ -1,4 +1,4 @@
-# iPhone Organizer 
+# iPhone Organizer
 
 <img src="https://s3.amazonaws.com/after-school-assets/iphone-correct.png" alt="correct iphone" align="right" height="300" hspace="10">
 
@@ -20,7 +20,7 @@ Open this lesson by clicking `Open` at the top of this page. You'll want to have
 
 Make sure your browser, with `index.html` open in the browser, is the full width of your computer screen, and not minimized at all. We're basing these instructions off a 13 inch computer screen. Because we're going to start with _absolute_ position, it is all determined by the width of our browser window (and our computer window). The dimensions provided in the code won't work if you browser is a different width. You can either shrink your browser window or play with the dimensions we provide.
 
-You're going to code your solution in `css/absolute.css` and `css/relative.css`. Go ahead and open that file in Nitrous, as well as `index.html`. You'll want to familiarize yourself with the code there. 
+You're going to code your solution in `css/absolute.css` and `css/relative.css`. Go ahead and open that file in Nitrous, as well as `index.html`. You'll want to familiarize yourself with the code their. 
 
 #### Step 3:
 
@@ -49,17 +49,17 @@ In our `css/absolute.css`, copy and paste the code below.
 }
 ```
 
-We use `#first-three` as our CSS selector, which is a `div` that contains three images - the app icons we're moving. 
+We use `#first-three` as our CSS selector, which is a `div` that contains three images - the app icons we're moving.
 
-The first property we set is `position`. This property can have several different values, but the most important two to know are `absolute` and `relative`. 
+The first property we set is `position`. This property can have several different values, but the most important two to know are `absolute` and `relative`.
 
-`absolute` means that an element's position is defined specifically. It's like telling someone, go stand in the top left corner of the room, 10 feet from the left wall, and ten feet from the top wall. No matter the size of the room, you always have to stay 10 feet from the top and the left. 
+`absolute` means that an element's position is defined specifically. It's like telling someone, go stand in the top left corner of the room, 10 feet from the left wall, and ten feet from the top wall. No matter the size of the room, you always have to stay 10 feet from the top and the left.
 
 `relative` means that the placement of an element is relative to other elements. It's like saying stand 10% of the length of the room away from the top, and 15% of the width of the room away from the left of the wall. If the room shrinks, so do those percentages and thus your placement.
 
 We set `position: absolute;` for now, which means the position of this `div` containing the three icons is never going to move. We the set `top: 300px`, meaning the images are going to be 300 pixels away from the top of the page. We also set `left: 620px;` meaning the images are going to be 620 pixels from the left side of the page.
 
-#### Step 5: 
+#### Step 5:
 
 We want to go ahead and use the same CSS for the other two divs of images. Copy and paste the following code in `css/absolute.css`:
 
@@ -80,7 +80,7 @@ If you look at this code, you'll notice the distance from the left side of the p
 
 Save your changes, and refresh in the browser. Finally we have all the icons on the screen!
 
-#### Step 6: 
+#### Step 6:
 
 Now we need to space the icons away from each other appropriately. You'll remember from the box model, that `margin` governs the space between elements. We can set `margin-left` and `margin-right`.
 
@@ -142,7 +142,7 @@ Let's fix the last 6 icons. Copy and paste the following into your `css/absolute
 
 #### Step 8:
 
-Save, refresh in the browser and see your perfectly laid out icons! But now try and shrink the browser. What happens? Your site might look something like this: 
+Save, refresh in the browser and see your perfectly laid out icons! But now try and shrink the browser. What happens? Your site might look something like this:
 
 <img src="https://s3.amazonaws.com/after-school-assets/absolute-bad.png" alt="dangers of absolute positioning" align="right" height="300" hspace="10">
 >
@@ -211,7 +211,7 @@ Save and refresh in the browser. Go ahead and try to shrink your browser window.
 
 Now let's do the other two rows! Copy and paste the following into `css/relative.css`:
 
-```css 
+```css
 #facebook {
   position: absolute;
   margin-top: 30%;
